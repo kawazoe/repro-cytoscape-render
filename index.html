@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>repro-cytoscape-render</title>
+    <script src="node_modules/cytoscape/dist/cytoscape.umd.js" type="application/javascript"></script>
+</head>
+<body>
+    <div id="cy" style="height: 100vh"></div>
+    <script>
+        cytoscape({
+          container: document.getElementById('cy'),
+          elements: [
+            { data: { id: '1' } },
+            { data: { id: '2' } },
+            { data: { id: '3' } },
+          ]
+        });
+    </script>
+</body>
+</html>

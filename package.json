@@ -1,0 +1,11 @@
+{
+  "name": "repro-cytoscape-render",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "http-server"
+  },
+  "dependencies": {
+    "cytoscape": "^3.14.1",
+    "http-server": "^0.12.1"
+  }
+}
